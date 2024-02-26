@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Test3 {
+class  Test3 {
     static Exercises1 handle;
 
     @BeforeAll

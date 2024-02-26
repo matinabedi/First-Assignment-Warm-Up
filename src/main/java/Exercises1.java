@@ -3,8 +3,14 @@ public class Exercises1 {
     implement a function that returns factorial of given n
      */
     public long factorial(int n) {
-        // TODO
-        return 0;
+        if(n==0){
+            return 1;
+        }
+        int fact=1;
+        for(int i=n;i>=1;i--){
+            fact=fact*i;
+        }
+        return fact;
     }
 
 
@@ -13,8 +19,15 @@ public class Exercises1 {
     the series -> 1, 1, 2, 3, 5, 8, ...
     */
     public long fibonacci(int n) {
-        // TODO
-        return 0;
+         long fib=1;
+        long a , b;
+        a = b = 1;
+        for (int i=1 ;i<=n-2;i++){
+            fib =a + b;
+            a=b;
+            b=fib;
+        }
+        return fib;
     }
 
 
@@ -30,8 +43,14 @@ public class Exercises1 {
 
      */
     public char[][] generateTriangle(int rows) {
-        // TODO
-        return null;
+        char[][] mosallas = new char[rows][];
+        for (int i = 0; i < rows; i++){
+            mosallas[i] = new char[i+1];
+            for (int j = 0; j <= i; j++){
+                mosallas[i][j] = '*';
+            }
+        }
+        return mosallas;
     }
 
 
