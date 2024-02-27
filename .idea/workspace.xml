@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6b2b91b4-8370-401e-94eb-c33cd400dd39" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exercises1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exercises1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +32,7 @@
     "JUnit.Test1.executor": "Run",
     "JUnit.Test2.executor": "Run",
     "JUnit.Test3.executor": "Run",
+    "JUnit.Test3.testGenerateTriangleWithFiveRows.executor": "Run",
     "JUnit.Test3.testGenerateTriangleWithThreeRows.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -115,7 +114,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708327734643</updated>
-      <workItem from="1708968403203" duration="2269000" />
+      <workItem from="1708968403203" duration="3115000" />
     </task>
     <servers />
   </component>
